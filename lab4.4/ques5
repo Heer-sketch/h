@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    // Input values for a and b
+    printf("Enter the value of a: ");
+    scanf("%d", &a);
+
+    printf("Enter the value of b: ");
+    scanf("%d", &b);
+
+    // Swap using arithmetic operations
+    a = a + b;  // Step 1
+    b = a - b;  // Step 2
+    a = a - b;  // Step 3
+
+    // Display the swapped values
+    printf("After swapping: \na = %d\nb = %d\n", a, b);
+
+    return 0;
+}
